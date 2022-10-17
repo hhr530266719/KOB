@@ -13,7 +13,7 @@ import java.util.Map;
 public class BotinfoController {
 
 
-    @RequestMapping("/getbotinfo1/")
+    @RequestMapping("getbotinfo1/")
     public List<Map<String, String>> getBotInfo1(){
         List<Map<String, String>> list = new LinkedList<>();
         Map<String, String> map1 = new HashMap<>();
